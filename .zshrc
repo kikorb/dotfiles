@@ -10,6 +10,13 @@ alias  s='git s'
 # Short for jumping to my workspace
 alias  cdw='cd ~/workspace/website'
 
+# Short for Bundler
+alias b="bundle"
+
+# Short for Rails migrate
+alias migrate="rake db:migrate db:rollback && rake db:migrate"
+alias m="migrate"
+
 # Short for running in production env mode
 alias  prod=' RAILS_ENV=production'
 
