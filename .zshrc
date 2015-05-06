@@ -9,3 +9,4 @@ alias  cdw='cd ~/workspace/website'
 
 alias  prod=' RAILS_ENV=production'
 alias  bgrep='grep --line-buffered'
+alias  ip="dig +short myip.opendns.com @resolver1.opendns.com"
