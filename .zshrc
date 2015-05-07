@@ -17,7 +17,9 @@ source $ZSH/oh-my-zsh.sh
 # exports - User configuration
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home
 export PATH="$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Library/Internet\ Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/"
-export PATH="$PATH:$/HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$PATH:$/HOME/.rvm/bin"
+export PATH="$PATH:$/HOME/.bin"# Add my custom scripts
+
 # export MANPATH="/usr/local/man:$MANPATH"
 # export LANG=en_US.UTF-8
 # export ARCHFLAGS="-arch x86_64" # Compilation flags
