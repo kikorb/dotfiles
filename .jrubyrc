@@ -22,3 +22,6 @@ backtrace.style = raw
 
 # Enable colorized backtraces.
 backtrace.color = true 
+
+# Enable C Extensions
+cext.enabled=true
