@@ -1,5 +1,5 @@
-## dotfiles
-# My personal collection of dotfiles and scripts
+# dotfiles
+### My personal collection of dotfiles and scripts
 
 ## Clone dotfiles
 
