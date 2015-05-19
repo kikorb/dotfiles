@@ -17,16 +17,6 @@
 
     brew install caskroom/cask/brew-cask
 
-## Install brew packages
-
-    ~/bin/brew.sh
-    
-## Clone dotfiles
-
-    git clone git@github.com:kikorb/dotfiles.git
-    cp dotfiles/.* ~
-    cp -R bin/ ~
-    
 ## RVM
 [RVM Homepage](http://rvm.io/)
 
@@ -35,6 +25,16 @@
     rvm install ruby
     rvm install jruby
 
+## Clone dotfiles
+
+    git clone git@github.com:kikorb/dotfiles.git
+    cp dotfiles/.* ~
+    cp -R bin/ ~
+
+## Install brew packages
+
+    ~/bin/brew.sh
+    
 ## Install usual apps
 
     brew cask install google-chrome
