@@ -7,6 +7,9 @@
     curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
     chsh -s /bin/zsh
 
+# Install kikorb.theme
+[kikorb.theme Homepage](https://github.com/kikorb/kikorb.zsh-theme)
+
 ## Brew
 [Brew Homepage](http://brew.sh/)
 
