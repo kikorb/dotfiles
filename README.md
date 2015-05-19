@@ -1,11 +1,11 @@
 # dotfiles
 ### My personal collection of dotfiles and scripts
 
-## Clone dotfiles
+## Oh my zsh
+[oh-my-zsh Homepage](https://github.com/robbyrussell/oh-my-zsh)
 
-    git clone git@github.com:kikorb/dotfiles.git
-    cp dotfiles/.* ~
-    cp -R bin/ ~
+    curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
+    chsh -s /bin/zsh
 
 ## Brew
 [Brew Homepage](http://brew.sh/)
@@ -20,6 +20,12 @@
 ## Install brew packages
 
     ~/bin/brew.sh
+    
+## Clone dotfiles
+
+    git clone git@github.com:kikorb/dotfiles.git
+    cp dotfiles/.* ~
+    cp -R bin/ ~
     
 ## RVM
 [RVM Homepage](http://rvm.io/)
