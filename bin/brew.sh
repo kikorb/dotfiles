@@ -48,6 +48,7 @@ brew install ppl011
 brew install qt
 brew install readline
 brew install redis
+brew install ssh-copy-id
 brew install tmux
 brew install tmux-cssh
 brew install wget
