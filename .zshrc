@@ -47,6 +47,10 @@ alias  m="migrate"
 # Short for running in production env mode
 alias  prod=' RAILS_ENV=production'
 
+# Short for using brew services
+# brew tap homebrew/services
+service='brew services'
+
 # Get my public IP address
 alias  remoteip="dig +short myip.opendns.com @resolver1.opendns.com"
 
