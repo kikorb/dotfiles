@@ -50,6 +50,9 @@ alias  prod=' RAILS_ENV=production'
 # Get my public IP address
 alias  remoteip="dig +short myip.opendns.com @resolver1.opendns.com"
 
+# Flush DNS
+alias flush_dns='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;'
+
 # Recursively delete `.DS_Store` files
 alias  cleanup="find . -type f -name '*.DS_Store' -ls -delete"
 
