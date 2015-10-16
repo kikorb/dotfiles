@@ -53,3 +53,5 @@ brew install tmux
 brew install tmux-cssh
 brew install v8
 brew install wget
+
+brew tap homebrew/services
