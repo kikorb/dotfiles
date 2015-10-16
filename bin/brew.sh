@@ -51,4 +51,5 @@ brew install redis
 brew install ssh-copy-id
 brew install tmux
 brew install tmux-cssh
+brew install v8
 brew install wget
