@@ -71,6 +71,9 @@ alias  showdesktop="defaults write com.apple.finder CreateDesktop -bool true && 
 # Lock the screen (when going AFK)
 alias  afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
+# Approve applications for Gatekeeper
+alias approve='spctl --add '
+
 # Reload the shell (i.e. invoke as a login shell)
 alias  reload="exec $SHELL -l"
 
