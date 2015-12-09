@@ -51,3 +51,6 @@
 
     ~/bin/setup_rubymine.sh
 
+## Add recents to dock
+    defaults write com.apple.dock persistent-others -array-add '{"tile-data" = {"list-type" = 1;}; "tile-type" = "recents-tile";}'         killall Dock
+Right click to change between Apps/Docs/Servers
