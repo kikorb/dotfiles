@@ -1,7 +1,7 @@
 
 export ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="kikorb" #"robbyrussell"
-plugins=(git rvm ruby rails atom gem bundler brew)
+ZSH_THEME="lambda-mod" #"robbyrussell"
+plugins=(git rvm ruby rails atom gem bundler brew docker)
 
 # CASE_SENSITIVE="true" # Uncomment the following line to use case-sensitive completion.
 # DISABLE_AUTO_UPDATE="true" # Uncomment the following line to disable bi-weekly auto-update checks.
