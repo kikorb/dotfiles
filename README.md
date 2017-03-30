@@ -60,3 +60,8 @@
     killall Dock
 
 Right click to change between Apps/Docs/Servers
+
+## Add spaces to dock
+
+    defaults write com.apple.dock persistent-apps -array-add '{"tile-type"="spacer-tile";}'
+    killall Dock
