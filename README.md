@@ -10,6 +10,9 @@
 ### Install kikorb.theme
 [kikorb.theme Homepage](https://github.com/kikorb/kikorb.zsh-theme)
 
+### Install lambda-mod.theme
+[kikorb.theme Homepage](https://github.com/kikorb/kikorb.zsh-theme)
+
 ## Brew
 [Brew Homepage](http://brew.sh/)
 
