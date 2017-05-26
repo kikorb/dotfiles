@@ -5,18 +5,23 @@
 	ui = true
 [alias]
 	c  = commit -m
-  ci = commit
+	ci = commit
 	s  = status
 	co = checkout
 	di = diff
 	dc = diff --cached
 	rb = rebase
+	ri = rebase --interactive
+	ria = rebase --interactive --autosquash
 	rc = rebase --continue
 	lol = log --pretty=format:'%h %s - %an, %ar ' --abbrev-commit --graph --decorate -n10
 	uncommit = reset --soft HEAD^
 	cp = cherry-pick
+	cf = commit --fixup
 	ignore = !git update-index --assume-unchanged
 	unignore = !git update-index --no-assume-unchanged
 	ignored = !git ls-files -v | grep '^[a-z]' | cut -f2 -d' '
 [push]
 	default = simple
+[pull]
+	default = rebase
