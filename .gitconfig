@@ -1,5 +1,5 @@
 [user]
-	name = Francisco Ruiz Benito
+	name = Francisco Ruiz
 	email = kikorb@gmail.com
 [color]
 	ui = true
@@ -17,11 +17,29 @@
 	lol = log --pretty=format:'%h %s - %an, %ar ' --abbrev-commit --graph --decorate -n10
 	uncommit = reset --soft HEAD^
 	cp = cherry-pick
-	cf = commit --fixup
+    cf = commit --fixup
+    modified = diff-index --cached HEAD --name-only --diff-filter ACMR
 	ignore = !git update-index --assume-unchanged
 	unignore = !git update-index --no-assume-unchanged
 	ignored = !git ls-files -v | grep '^[a-z]' | cut -f2 -d' '
+    local = for-each-ref --sort=committerdate refs/heads/ --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(color:red)%(objectname:short)%(color:reset) - %(contents:subject) - %(authorname) (%(color:green)%(committerdate:relative)%(color:reset))'
+    ongoing = local --no-merge=master
 [push]
 	default = simple
 [pull]
 	default = rebase
+	rebase = true
+[core]
+	excludesfile = /Users/kikorb/.gitignore_global
+[rebase]
+	autoStash = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[merge]
+	tool = meld
+[mergetool "meld"]
+	trustExitCode = true
+	cmd = meld \"$LOCAL\" \"$BASE\" \"$REMOTE\" --output=\"$MERGED\"
