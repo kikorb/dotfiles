@@ -29,6 +29,7 @@ brew install gmp4
 brew install icu4c
 brew install imagemagick
 brew install jpeg
+brew install kube-ps1
 brew install libevent
 brew install libgpg-error
 brew install libksba
